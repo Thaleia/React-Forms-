@@ -1,17 +1,16 @@
 import './App.css';
-import ShoppingCart from './ShoppingCart';
-import Test from './Test';
-import Test2 from './Test2';
+import SimpleForm from './SimpleForm';
+import MultipleInputFields from './MultipleInputFields';
+import Dropdown from './Dropdown';
 
 function App() {
   return (
     <div className="App">
-      <h1>My shopping cart</h1>
-      <ShoppingCart />
+      <SimpleForm />
       <br />
-      <Test />
+      <MultipleInputFields />
       <br />
-      <Test2 />
+      <Dropdown />
     </div>
   );
 }
