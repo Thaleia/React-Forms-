@@ -8,10 +8,7 @@ function SimpleForm() {
       event.preventDefault();
       setItems([
         ...items,
-        {
-          id: items.length,
-          name: itemName
-        }
+        {id: items.length, name: itemName}
       ]);
       setItemName("");
     };
@@ -36,8 +33,6 @@ function SimpleForm() {
             <li key={item.id}>{item.name}</li>
           ))}
         </ul>
-        
-
       </>
     );
   }
